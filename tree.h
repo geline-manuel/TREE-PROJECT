@@ -55,11 +55,3 @@ private:
 
 #endif
 
-
-  
-   
-private:   
-   Node* root;
-};
-
-#endif
