@@ -31,3 +31,17 @@ int Node::size() const
    }
    return 1 + sum;
 }
+
+void Node::print() const {
+
+cout << data << endl;
+
+}
+
+void Tree::print() const {
+
+if (root !=nullptr) { root ->print(); }
+
+for (Node* np : children) { np ->print();}
+
+}
