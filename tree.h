@@ -45,6 +45,7 @@ public:
       @return the number of nodes in the tree
    */
    int size() const;
+   void print() const;
 
   
    
